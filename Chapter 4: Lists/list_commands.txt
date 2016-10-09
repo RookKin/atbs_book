@@ -1,0 +1,46 @@
+List Methods:
+
+Finding a value in a list with the index() method
+    >>> spam = ['hello', 'hi', 'howdy', 'heyas']
+    >>> spam.index('hello')
+    0
+    >>> spam.index('heyas')
+    3
+
+****************************************************************
+****************************************************************
+
+Adding values to lists with the append() and insert() methods
+    APPEND():
+    >>> spam = ['cat', 'dog', 'bat']
+    >>> spam.append('moose')
+    >>> spam
+    ['cat', 'dog', 'bat', 'moose']
+
+    INSERT():
+    >>> spam = ['cat', 'dog', 'bat']
+    >>> spam.insert(1, 'chicken')
+    >>> spam
+    ['cat', 'chicken', 'dog', 'bat']
+
+****************************************************************
+****************************************************************
+
+Removing values from lists with the remove() method
+    >>> spam = ['cat', 'bat', 'rat', 'elephant']
+    >>> spam.remove('bat')
+    >>> spam
+    ['cat', 'rat', 'elephant']
+
+****************************************************************
+****************************************************************
+
+Sorting values in a list with the sort() method
+    >>> spam = [2, 5, 3.14, 1, -7]
+    >>> spam.sort()
+    >>> spam
+    [-7, 1, 2, 3.14, 5]
+    >>> spam = ['ant', 'cats', 'dogs', 'badgers', 'elephants']
+    >>> spam.sort()
+    >>> spam
+    ['ant', 'badgers', 'cats', 'dogs', 'elephants']

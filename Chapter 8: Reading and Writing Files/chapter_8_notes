@@ -1,0 +1,9 @@
+
+Absolute vs. Relative Paths
+    -An absolute path always begins with the root folder
+    -A relative path is relative to the program's current working directory
+
+    relatives           -->     absolutes
+        ../             -->     home/
+        ./              -->     /home/alex
+        ./Documents     -->     /home/alex/Documents

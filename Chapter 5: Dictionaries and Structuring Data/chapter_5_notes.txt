@@ -1,0 +1,39 @@
+-a dictionary is a collection of many values
+-list indexes can only be integers (i.e. spam[0]) while dictionary indexes can have different data types
+-indexes for dicts are called keys and it is associated with a specific value. The relationship is called a key-value pair
+
+Dictionary Example:
+    >>> myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
+    >>> myCat['size']
+    'fat'
+    >>> 'My cat has ' + myCat['color'] + ' fur'
+    'My cat has gray fur'
+
+
+Dictionaries vs. Lists
+-dictionary items are unordered, list items are ordered
+-because dictionaries are not ordered they cannot be sliced like lists
+-Though dictionaries are not ordered, the fact that you can have arbitrary
+ values for the keys allows you to organize the data in powerful ways.
+ See birthdays.py for examples
+
+
+Three dictionary methods:
+keys(), values(), items()
+
+
+    >>> spam = {'color': 'red', 'age': 42}
+    >>> for v in spam.values():
+            print(v)
+    red
+    42
+
+    >>> for k in spam.keys():
+            print(k)
+    color
+    age
+
+    >>> for i in spam.items
+            print(i)
+    ('color': 'red')
+    ('age': 42)

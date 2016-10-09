@@ -1,0 +1,9 @@
+
+Requests Module:
+    Process for downloading and saving a file:
+        1. Call requests.get() to download the file
+        2. Cal open() with 'wb' to create a new file in write binary mode
+        3. Loop over the Response object's iter_content() method
+        4. Call write() on each iteration to write the content to the file
+        5. Call close() to close the file.
+    https://requests.readthedocs.org/

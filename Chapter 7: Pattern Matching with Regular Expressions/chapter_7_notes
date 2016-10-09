@@ -1,0 +1,28 @@
+Regex Symbols:
+    ?                   - matches zero or one of the preceding group
+    *                   - matches zero or more of the preceding group
+    +                   - matches one or more of the preceding group
+    {n}                 - matches exactly n of the preceding group
+    {n, }               - matches n or more of the preceding group
+    {,m}                - matches 0 to m of the preceding group
+    {n,m}               - matches at least n and at most m of the preceding group
+    {n,m}? or *? or +?  - performs a nongreedy match of the preceding group
+    ^spam               - means the string must begin with 'spam'
+    spam$               - means the string must end with 'spam'
+    .                   - matches any character, except new line characters
+    \d                  - match a digit
+    \w                  - match a word
+    \s                  - match a space
+    \D                  - match anything except a digit
+    \W                  - match anything except a word
+    \S                  - match anything except a space
+    [abc]               - matches any character between the brackets
+    [^abc]              - matches any character that isn't between the brackets
+
+
+Methods:
+    re.IGNORECASE - ignores capitalization
+    re.DOTALL - Make the '.' special character match any character at all, including a newline; without this flag,
+                '.' will match anything except a newline.
+    re.VERBOSE - This flag allows you to write regular expressions that look nicer and are more readable by
+                 allowing you to visually separate logical sections of the pattern and add comments.
